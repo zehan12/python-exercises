@@ -4,6 +4,14 @@
 # 5! = 5 * 4 * 3 * 2 * 1
 #
 # Example method call
+
+def factorial(int):
+    f = 1
+    for i in range(int):
+        f *= i+1
+    print(f)
+
+factorial(5)
 #
 # factorial(5)
 #
