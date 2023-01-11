@@ -25,6 +25,20 @@
 # d2 = {}
 # d2["foo"]
 # > KeyError: 'foo'
+
+
+def letter_count(word):
+    if type(word) == str:
+        obj = {}
+        for letter in word:
+            if letter in obj:
+                obj[letter] += 1;
+            else:
+                obj[letter] = 1
+    return obj
+
+letter_count("Czechoslovakia")
+
 #
 # Example method call:
 #
