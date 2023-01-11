@@ -4,6 +4,15 @@
 #
 # Example method call:
 #
+
+def p_times(value,num):
+ if type(num) == int and type(value) == str:
+  for i in range(num):
+    print(value);
+ else:
+    print("Not Valid Input")
+    
+    
 # p_times('Hello there', 1)
 #
 # > Hello there
@@ -13,3 +22,4 @@
 # > Hello there
 # > Hello there
 # > Hello there
+
